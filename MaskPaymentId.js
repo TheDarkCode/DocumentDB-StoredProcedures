@@ -55,7 +55,7 @@ function MaskPaymentData(filterQuery, paymentType)
 			{
 				var originalPayment = results[0];
 
-				originalPayment.value = new Array(payment.value.length-3).join('#') + payment.value.substr(payment.value.length-4, 4);
+				originalPayment.value = new Array(originalPayment.value.length-3).join('#') + originalPayment.value.substr(originalPayment.value.length-4, 4);
 
 				var output = "";
 

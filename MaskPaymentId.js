@@ -15,7 +15,7 @@
 * @param {String} prefix - The string to prepend to the 1st document in collection.
 */
 
-function MaskPaymentData(filterQuery, paymentType)
+function MaskPaymentId(filterQuery, paymentType)
 {
 	var context = getContext();
 	var collection = context.getCollection();
